@@ -1,0 +1,13 @@
+# ============================================================
+# project-cbr — Case-Based Reasoning for Indonesian Court Decisions
+# Stage 1: Data Acquisition & Preprocessing
+# ============================================================
+
+# PDF text extraction
+pdfplumber>=0.10.0
+
+# Data manipulation
+pandas>=2.0.0
+
+# Progress bars (Jupyter-compatible)
+tqdm>=4.65.0

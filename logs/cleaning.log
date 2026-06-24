@@ -1,0 +1,369 @@
+========================================================================
+  CBR Case Base — Preprocessing Log
+  Generated: 2026-06-24 21:17:54
+  Source folder: D:\Programming\project-cbr (Final Project Matkul Penalaran Komputer)\datasets\uu-ite
+  Total files: 44
+========================================================================
+
+File:           putusan_107_pid.sus_2021_pn_jkt.sel_20260624185710.pdf
+  Case ID:      case_001
+  Status:       success
+  Pages:        41
+  Raw chars:    140,425
+  Cleaned chars:91,347
+  Output file:  case_001_putusan_107_pid_sus_2021_pn_jkt_sel_20260624185710.txt
+
+File:           putusan_10_pid.sus_2025_pt_bdg_20260624190424.pdf
+  Case ID:      case_002
+  Status:       success
+  Pages:        9
+  Raw chars:    27,462
+  Cleaned chars:16,671
+  Output file:  case_002_putusan_10_pid_sus_2025_pt_bdg_20260624190424.txt
+
+File:           putusan_1174_pid.sus_2021_pn_jkt.utr_20260624185123.pdf
+  Case ID:      case_003
+  Status:       success
+  Pages:        16
+  Raw chars:    50,333
+  Cleaned chars:31,192
+  Output file:  case_003_putusan_1174_pid_sus_2021_pn_jkt_utr_20260624185123.txt
+
+File:           putusan_1221_pid.sus_2020_pt_sby_20260624184940.pdf
+  Case ID:      case_004
+  Status:       success
+  Pages:        20
+  Raw chars:    56,034
+  Cleaned chars:32,505
+  Output file:  case_004_putusan_1221_pid_sus_2020_pt_sby_20260624184940.txt
+
+File:           putusan_134_pid.sus_2018_pn_bnr_20260624185857.pdf
+  Case ID:      case_005
+  Status:       success
+  Pages:        37
+  Raw chars:    129,282
+  Cleaned chars:84,810
+  Output file:  case_005_putusan_134_pid_sus_2018_pn_bnr_20260624185857.txt
+
+File:           putusan_1357_pid.sus_2021_pt_mdn_20260624190325.pdf
+  Case ID:      case_006
+  Status:       success
+  Pages:        36
+  Raw chars:    127,986
+  Cleaned chars:85,433
+  Output file:  case_006_putusan_1357_pid_sus_2021_pt_mdn_20260624190325.txt
+
+File:           putusan_1536_pid.sus_2019_pn_jkt.brt_20260624185350.pdf
+  Case ID:      case_007
+  Status:       success
+  Pages:        51
+  Raw chars:    170,996
+  Cleaned chars:112,755
+  Output file:  case_007_putusan_1536_pid_sus_2019_pn_jkt_brt_20260624185350.txt
+
+File:           putusan_1537_pid.sus_2019_pn_jkt.brt_20260624185405.pdf
+  Case ID:      case_008
+  Status:       success
+  Pages:        55
+  Raw chars:    177,648
+  Cleaned chars:114,910
+  Output file:  case_008_putusan_1537_pid_sus_2019_pn_jkt_brt_20260624185405.txt
+
+File:           putusan_1597_pid.sus_2019_pn_jkt.utr_20260624185744.pdf
+  Case ID:      case_009
+  Status:       success
+  Pages:        26
+  Raw chars:    84,502
+  Cleaned chars:53,379
+  Output file:  case_009_putusan_1597_pid_sus_2019_pn_jkt_utr_20260624185744.txt
+
+File:           putusan_159_pid.sus_2023_pn_sda_20260624190433.pdf
+  Case ID:      case_010
+  Status:       success
+  Pages:        77
+  Raw chars:    263,174
+  Cleaned chars:171,141
+  Output file:  case_010_putusan_159_pid_sus_2023_pn_sda_20260624190433.txt
+
+File:           putusan_165_pid.sus_2020_pn_jkt.utr_20260624124027.pdf
+  Case ID:      case_011
+  Status:       success
+  Pages:        27
+  Raw chars:    92,094
+  Cleaned chars:59,818
+  Output file:  case_011_putusan_165_pid_sus_2020_pn_jkt_utr_20260624124027.txt
+
+File:           putusan_167_pid.sus_2019_pn_ckr_20260624185039.pdf
+  Case ID:      case_012
+  Status:       success
+  Pages:        18
+  Raw chars:    58,983
+  Cleaned chars:37,426
+  Output file:  case_012_putusan_167_pid_sus_2019_pn_ckr_20260624185039.txt
+
+File:           putusan_1682_pid.sus_2025_pn_tng_20260624190003.pdf
+  Case ID:      case_013
+  Status:       success
+  Pages:        19
+  Raw chars:    60,196
+  Cleaned chars:37,437
+  Output file:  case_013_putusan_1682_pid_sus_2025_pn_tng_20260624190003.txt
+
+File:           putusan_2584_pid.sus_2025_pn_sby_20260624185952.pdf
+  Case ID:      case_014
+  Status:       success
+  Pages:        15
+  Raw chars:    52,983
+  Cleaned chars:35,978
+  Output file:  case_014_putusan_2584_pid_sus_2025_pn_sby_20260624185952.txt
+
+File:           putusan_265_pid.sus_2019_pn_bks_20260624185416.pdf
+  Case ID:      case_015
+  Status:       success
+  Pages:        26
+  Raw chars:    85,704
+  Cleaned chars:54,683
+  Output file:  case_015_putusan_265_pid_sus_2019_pn_bks_20260624185416.txt
+
+File:           putusan_266_pid.sus_2019_pn_sbw_20260624185151.pdf
+  Case ID:      case_016
+  Status:       success
+  Pages:        78
+  Raw chars:    257,499
+  Cleaned chars:164,231
+  Output file:  case_016_putusan_266_pid_sus_2019_pn_sbw_20260624185151.txt
+
+File:           putusan_274_pid.sus_2026_pt_tjk_20260624185955.pdf
+  Case ID:      case_017
+  Status:       success
+  Pages:        13
+  Raw chars:    39,320
+  Cleaned chars:23,690
+  Output file:  case_017_putusan_274_pid_sus_2026_pt_tjk_20260624185955.txt
+
+File:           putusan_27_pid.sus_2023_pn_pnn_20260624185907.pdf
+  Case ID:      case_018
+  Status:       success
+  Pages:        22
+  Raw chars:    74,856
+  Cleaned chars:48,500
+  Output file:  case_018_putusan_27_pid_sus_2023_pn_pnn_20260624185907.txt
+
+File:           putusan_27_pid.sus_2025_pn_bgl_20260624185839.pdf
+  Case ID:      case_019
+  Status:       success
+  Pages:        21
+  Raw chars:    69,337
+  Cleaned chars:44,336
+  Output file:  case_019_putusan_27_pid_sus_2025_pn_bgl_20260624185839.txt
+
+File:           putusan_2831_pid.sus_2025_pn_sby_20260624134018.pdf
+  Case ID:      case_020
+  Status:       success
+  Pages:        14
+  Raw chars:    46,447
+  Cleaned chars:29,641
+  Output file:  case_020_putusan_2831_pid_sus_2025_pn_sby_20260624134018.txt
+
+File:           putusan_32_pid.sus_2020_pn_mjn_20260624185654.pdf
+  Case ID:      case_021
+  Status:       success
+  Pages:        24
+  Raw chars:    75,980
+  Cleaned chars:47,309
+  Output file:  case_021_putusan_32_pid_sus_2020_pn_mjn_20260624185654.txt
+
+File:           putusan_331_pid.sus_2019_pt_dki_20260624190333.pdf
+  Case ID:      case_022
+  Status:       success
+  Pages:        21
+  Raw chars:    71,814
+  Cleaned chars:47,884
+  Output file:  case_022_putusan_331_pid_sus_2019_pt_dki_20260624190333.txt
+
+File:           putusan_337_pid.sus_2020_pt_dki_20260624124151.pdf
+  Case ID:      case_023
+  Status:       success
+  Pages:        11
+  Raw chars:    34,669
+  Cleaned chars:22,167
+  Output file:  case_023_putusan_337_pid_sus_2020_pt_dki_20260624124151.txt
+
+File:           putusan_3399_pid.sus_2019_pn_sby_20260624112132.pdf
+  Case ID:      case_024
+  Status:       success
+  Pages:        15
+  Raw chars:    49,616
+  Cleaned chars:31,695
+  Output file:  case_024_putusan_3399_pid_sus_2019_pn_sby_20260624112132.txt
+
+File:           putusan_371_pid.sus_2025_pn_gpr_20260624190459.pdf
+  Case ID:      case_025
+  Status:       success
+  Pages:        28
+  Raw chars:    98,662
+  Cleaned chars:65,283
+  Output file:  case_025_putusan_371_pid_sus_2025_pn_gpr_20260624190459.txt
+
+File:           putusan_394_pid.sus_2018_pn_pbr_20260624095617.pdf
+  Case ID:      case_026
+  Status:       success
+  Pages:        64
+  Raw chars:    193,726
+  Cleaned chars:116,766
+  Output file:  case_026_putusan_394_pid_sus_2018_pn_pbr_20260624095617.txt
+
+File:           putusan_3_pid.sus_2020_pn_sgr_20260624185521.pdf
+  Case ID:      case_027
+  Status:       success
+  Pages:        19
+  Raw chars:    62,558
+  Cleaned chars:39,909
+  Output file:  case_027_putusan_3_pid_sus_2020_pn_sgr_20260624185521.txt
+
+File:           putusan_419_pid.sus_2023_pn_jkt.sel_20260623174821.pdf
+  Case ID:      case_028
+  Status:       success
+  Pages:        39
+  Raw chars:    117,325
+  Cleaned chars:70,327
+  Output file:  case_028_putusan_419_pid_sus_2023_pn_jkt_sel_20260623174821.txt
+
+File:           putusan_446_pid.sus_2021_pn_jkt.utr_20260624190610.pdf
+  Case ID:      case_029
+  Status:       success
+  Pages:        35
+  Raw chars:    112,694
+  Cleaned chars:70,631
+  Output file:  case_029_putusan_446_pid_sus_2021_pn_jkt_utr_20260624190610.txt
+
+File:           putusan_451_pid.sus_2025_pn_dps_20260624185850.pdf
+  Case ID:      case_030
+  Status:       success
+  Pages:        30
+  Raw chars:    96,923
+  Cleaned chars:61,152
+  Output file:  case_030_putusan_451_pid_sus_2025_pn_dps_20260624185850.txt
+
+File:           putusan_52_pid.sus_2021_pn_dgl_20260624190339.pdf
+  Case ID:      case_031
+  Status:       success
+  Pages:        24
+  Raw chars:    77,360
+  Cleaned chars:48,774
+  Output file:  case_031_putusan_52_pid_sus_2021_pn_dgl_20260624190339.txt
+
+File:           putusan_582_pid.sus_2025_pn_jkt.sel_20260624185830.pdf
+  Case ID:      case_032
+  Status:       success
+  Pages:        30
+  Raw chars:    97,342
+  Cleaned chars:61,255
+  Output file:  case_032_putusan_582_pid_sus_2025_pn_jkt_sel_20260624185830.txt
+
+File:           putusan_616_pid.sus_2021_pn_jkt.sel_20260624185228.pdf
+  Case ID:      case_033
+  Status:       success
+  Pages:        31
+  Raw chars:    102,037
+  Cleaned chars:64,818
+  Output file:  case_033_putusan_616_pid_sus_2021_pn_jkt_sel_20260624185228.txt
+
+File:           putusan_617_pid.sus_2021_pn_jkt.sel_20260624185142.pdf
+  Case ID:      case_034
+  Status:       success
+  Pages:        29
+  Raw chars:    93,978
+  Cleaned chars:59,192
+  Output file:  case_034_putusan_617_pid_sus_2021_pn_jkt_sel_20260624185142.txt
+
+File:           putusan_63_pid.sus_2025_pn_ngb_20260624190512.pdf
+  Case ID:      case_035
+  Status:       success
+  Pages:        44
+  Raw chars:    153,992
+  Cleaned chars:101,551
+  Output file:  case_035_putusan_63_pid_sus_2025_pn_ngb_20260624190512.txt
+
+File:           putusan_658_pid.sus_2021_pt_mks_20260624185423.pdf
+  Case ID:      case_036
+  Status:       success
+  Pages:        16
+  Raw chars:    51,761
+  Cleaned chars:32,577
+  Output file:  case_036_putusan_658_pid_sus_2021_pt_mks_20260624185423.txt
+
+File:           putusan_68_pid.sus_2022_pn_pal_20260624185049.pdf
+  Case ID:      case_037
+  Status:       success
+  Pages:        27
+  Raw chars:    87,796
+  Cleaned chars:55,405
+  Output file:  case_037_putusan_68_pid_sus_2022_pn_pal_20260624185049.txt
+
+File:           putusan_724_pid.sus_2024_pn_dps_20260624185208.pdf
+  Case ID:      case_038
+  Status:       success
+  Pages:        137
+  Raw chars:    443,354
+  Cleaned chars:279,740
+  Output file:  case_038_putusan_724_pid_sus_2024_pn_dps_20260624185208.txt
+
+File:           putusan_75_pid.sus_2025_pn_gdt_20260624185824.pdf
+  Case ID:      case_039
+  Status:       success
+  Pages:        36
+  Raw chars:    119,913
+  Cleaned chars:76,953
+  Output file:  case_039_putusan_75_pid_sus_2025_pn_gdt_20260624185824.txt
+
+File:           putusan_83_pid.sus_2026_pt_dki_20260624190543.pdf
+  Case ID:      case_040
+  Status:       success
+  Pages:        14
+  Raw chars:    41,125
+  Cleaned chars:25,188
+  Output file:  case_040_putusan_83_pid_sus_2026_pt_dki_20260624190543.txt
+
+File:           putusan_848_pid.sus_2023_pn_bjm_20260624185918.pdf
+  Case ID:      case_041
+  Status:       success
+  Pages:        20
+  Raw chars:    63,716
+  Cleaned chars:39,850
+  Output file:  case_041_putusan_848_pid_sus_2023_pn_bjm_20260624185918.txt
+
+File:           putusan_88_pid.sus_2025_pn_rbg_20260624190017.pdf
+  Case ID:      case_042
+  Status:       success
+  Pages:        36
+  Raw chars:    120,795
+  Cleaned chars:77,855
+  Output file:  case_042_putusan_88_pid_sus_2025_pn_rbg_20260624190017.txt
+
+File:           putusan_980_pid.sus_2024_pn_bdg_20260624185133.pdf
+  Case ID:      case_043
+  Status:       success
+  Pages:        39
+  Raw chars:    132,858
+  Cleaned chars:86,241
+  Output file:  case_043_putusan_980_pid_sus_2024_pn_bdg_20260624185133.txt
+
+File:           putusan_9_pid.sus_2026_pn_ngb_20260623014917.pdf
+  Case ID:      case_044
+  Status:       success
+  Pages:        68
+  Raw chars:    230,345
+  Cleaned chars:149,130
+  Output file:  case_044_putusan_9_pid_sus_2026_pn_ngb_20260623014917.txt
+
+========================================================================
+  SUMMARY
+========================================================================
+  Total files processed:  44
+  Successful:             44
+  Warnings:               0
+  Failed:                 0
+  Total pages:            1,458
+  Total cleaned chars:    3,061,535
+========================================================================
