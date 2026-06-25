@@ -12,8 +12,8 @@ Project ini mengimplementasikan pipeline CBR untuk menganalisis dan melakukan pe
 
 | Tahap | Deskripsi | Status |
 |-------|-----------|--------|
-| **Tahap 1** | Case Base — Data Acquisition & Preprocessing | ✅ Aktif |
-| **Tahap 2** | Case Representation — Feature Extraction | 🔲 Direncanakan |
+| **Tahap 1** | Case Base — Data Acquisition & Preprocessing | ✅ Selesai |
+| **Tahap 2** | Case Representation — Feature Extraction | ✅ Selesai |
 | **Tahap 3** | Case Retrieval — Similarity & Matching | 🔲 Direncanakan |
 | **Tahap 4** | Case Reuse & Evaluation | 🔲 Direncanakan |
 
@@ -31,7 +31,8 @@ project-cbr/
 │   └── results/        # Summary hasil pipeline
 │
 ├── notebooks/
-│   └── 01_case_base.ipynb    # Tahap 1 — Pipeline preprocessing
+│   ├── 01_case_base.ipynb          # Tahap 1 — Pipeline preprocessing
+│   └── 02_case_representation.ipynb # Tahap 2 — Feature extraction
 │
 ├── logs/
 │   └── cleaning.log   # Log preprocessing
@@ -100,6 +101,16 @@ Notebook preprocessing (`01_case_base.ipynb`) melakukan proses berikut:
 | Data Handling | `pandas` |
 | Progress Display | `tqdm` |
 | Environment | VSCode + Jupyter |
+
+## 📊 Tahap 2 — Case Representation
+
+Notebook `02_case_representation.ipynb` mengekstrak fitur terstruktur dari 44 file teks mentah:
+
+1. **Metadata** — `case_id`, `nomor_putusan`, `pengadilan`, `tanggal_putusan`, `terdakwa`, `text_full`.
+2. **Fitur Retrieval** — `ringkasan_fakta` (primer), `pasal`, `amar_putusan` (sekunder), `pidana_penjara`, `denda`.
+3. **Output** — `data/processed/cases.csv` (44 baris, 11 kolom).
+
+Field kritis (`nomor_putusan`, `pasal`, `amar_putusan`) mencapai 100% extraction coverage.
 
 ## 📄 Lisensi
 
