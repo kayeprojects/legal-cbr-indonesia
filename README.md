@@ -14,7 +14,7 @@ Project ini mengimplementasikan pipeline CBR untuk menganalisis dan melakukan pe
 |-------|-----------|--------|
 | **Tahap 1** | Case Base — Data Acquisition & Preprocessing | ✅ Selesai |
 | **Tahap 2** | Case Representation — Feature Extraction | ✅ Selesai |
-| **Tahap 3** | Case Retrieval — Similarity & Matching | 🔲 Direncanakan |
+| **Tahap 3** | Case Retrieval — Similarity & Matching | ✅ Selesai |
 | **Tahap 4** | Case Reuse & Evaluation | 🔲 Direncanakan |
 
 ## 📁 Struktur Project
@@ -32,7 +32,8 @@ project-cbr/
 │
 ├── notebooks/
 │   ├── 01_case_base.ipynb          # Tahap 1 — Pipeline preprocessing
-│   └── 02_case_representation.ipynb # Tahap 2 — Feature extraction
+│   ├── 02_case_representation.ipynb # Tahap 2 — Feature extraction
+│   └── 03_case_retrieval.ipynb      # Tahap 3 — TF-IDF retrieval & SVM
 │
 ├── logs/
 │   └── cleaning.log   # Log preprocessing
@@ -111,6 +112,17 @@ Notebook `02_case_representation.ipynb` mengekstrak fitur terstruktur dari 44 fi
 3. **Output** — `data/processed/cases.csv` (44 baris, 11 kolom).
 
 Field kritis (`nomor_putusan`, `pasal`, `amar_putusan`) mencapai 100% extraction coverage.
+
+## 🔍 Tahap 3 — Case Retrieval
+
+Notebook `03_case_retrieval.ipynb` mengimplementasikan sistem retrieval kasus:
+
+1. **Train/Test Split** — 80:20 (35 train, 9 test) dengan stratifikasi berdasarkan pasal primer.
+2. **TF-IDF Vectorization** — 3012 fitur (unigrams + bigrams) dari `ringkasan_fakta`.
+3. **Baseline** — TF-IDF + Cosine Similarity (Avg Precision@5 = 0.24).
+4. **ML Model** — TF-IDF + Linear SVM (Avg Precision@5 = 0.33).
+5. **API** — `retrieve(query_text, k=5, method='cosine'/'svm')`.
+6. **Output** — `data/results/retrieval_baseline.json`, `data/eval/queries.json`.
 
 ## 📄 Lisensi
 

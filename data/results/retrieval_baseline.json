@@ -1,0 +1,617 @@
+{
+  "case_001": {
+    "query_id": "case_001",
+    "expected_pasal": "Pasal 35",
+    "expected_similar_cases": [
+      "case_008",
+      "case_009",
+      "case_015",
+      "case_021",
+      "case_024",
+      "case_027",
+      "case_028",
+      "case_034",
+      "case_036"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_029",
+        "similarity_score": 0.2558,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_023",
+        "similarity_score": 0.2121,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.202,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.2007,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_013",
+        "similarity_score": 0.1803,
+        "primary_pasal": "Pasal 27"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_011",
+        "similarity_score": 0.6373,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_038",
+        "similarity_score": 0.6305,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_003",
+        "similarity_score": 0.6301,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_004",
+        "similarity_score": 0.6289,
+        "primary_pasal": "Pasal 28"
+      }
+    ]
+  },
+  "case_006": {
+    "query_id": "case_006",
+    "expected_pasal": "Pasal 28",
+    "expected_similar_cases": [
+      "case_003",
+      "case_004",
+      "case_007",
+      "case_011",
+      "case_012",
+      "case_016",
+      "case_023",
+      "case_026",
+      "case_031",
+      "case_037",
+      "case_038"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_029",
+        "similarity_score": 0.2688,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.2363,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.2325,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.2076,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_023",
+        "similarity_score": 0.1887,
+        "primary_pasal": "Pasal 28"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_015",
+        "similarity_score": 0.6449,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.6326,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.6319,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_021",
+        "similarity_score": 0.631,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_028",
+        "similarity_score": 0.6138,
+        "primary_pasal": "Pasal 35"
+      }
+    ]
+  },
+  "case_014": {
+    "query_id": "case_014",
+    "expected_pasal": "Pasal 27",
+    "expected_similar_cases": [
+      "case_005",
+      "case_010",
+      "case_013",
+      "case_017",
+      "case_018",
+      "case_020",
+      "case_030",
+      "case_039",
+      "case_041",
+      "case_042"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_009",
+        "similarity_score": 0.343,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_030",
+        "similarity_score": 0.2834,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_034",
+        "similarity_score": 0.2386,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_035",
+        "similarity_score": 0.2358,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_018",
+        "similarity_score": 0.2218,
+        "primary_pasal": "Pasal 27"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_011",
+        "similarity_score": 0.6373,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_038",
+        "similarity_score": 0.6305,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_003",
+        "similarity_score": 0.6301,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_004",
+        "similarity_score": 0.6289,
+        "primary_pasal": "Pasal 28"
+      }
+    ]
+  },
+  "case_019": {
+    "query_id": "case_019",
+    "expected_pasal": "Pasal 27",
+    "expected_similar_cases": [
+      "case_005",
+      "case_010",
+      "case_013",
+      "case_017",
+      "case_018",
+      "case_020",
+      "case_030",
+      "case_039",
+      "case_041",
+      "case_042"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.4262,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_023",
+        "similarity_score": 0.3552,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.3147,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_015",
+        "similarity_score": 0.2949,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_021",
+        "similarity_score": 0.2716,
+        "primary_pasal": "Pasal 35"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_015",
+        "similarity_score": 0.6449,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.6326,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.6319,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_021",
+        "similarity_score": 0.631,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_028",
+        "similarity_score": 0.6138,
+        "primary_pasal": "Pasal 35"
+      }
+    ]
+  },
+  "case_022": {
+    "query_id": "case_022",
+    "expected_pasal": "Pasal 28",
+    "expected_similar_cases": [
+      "case_003",
+      "case_004",
+      "case_007",
+      "case_011",
+      "case_012",
+      "case_016",
+      "case_023",
+      "case_026",
+      "case_031",
+      "case_037",
+      "case_038"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_026",
+        "similarity_score": 0.2691,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_016",
+        "similarity_score": 0.2617,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_039",
+        "similarity_score": 0.2586,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_035",
+        "similarity_score": 0.2471,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_003",
+        "similarity_score": 0.2235,
+        "primary_pasal": "Pasal 28"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_011",
+        "similarity_score": 0.6373,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_038",
+        "similarity_score": 0.6305,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_003",
+        "similarity_score": 0.6301,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_004",
+        "similarity_score": 0.6289,
+        "primary_pasal": "Pasal 28"
+      }
+    ]
+  },
+  "case_025": {
+    "query_id": "case_025",
+    "expected_pasal": "Pasal 30",
+    "expected_similar_cases": [
+      "case_029",
+      "case_035"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.1359,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_044",
+        "similarity_score": 0.1331,
+        "primary_pasal": "Pasal 29"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.1187,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_042",
+        "similarity_score": 0.1176,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_004",
+        "similarity_score": 0.108,
+        "primary_pasal": "Pasal 28"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_020",
+        "similarity_score": 0.6417,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_042",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_041",
+        "similarity_score": 0.6284,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_030",
+        "similarity_score": 0.62,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_017",
+        "similarity_score": 0.6179,
+        "primary_pasal": "Pasal 27"
+      }
+    ]
+  },
+  "case_032": {
+    "query_id": "case_032",
+    "expected_pasal": "Pasal 29",
+    "expected_similar_cases": [
+      "case_002",
+      "case_044"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_039",
+        "similarity_score": 0.2773,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_035",
+        "similarity_score": 0.2668,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_041",
+        "similarity_score": 0.2613,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_026",
+        "similarity_score": 0.2599,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_016",
+        "similarity_score": 0.2587,
+        "primary_pasal": "Pasal 28"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_020",
+        "similarity_score": 0.6417,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_042",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_041",
+        "similarity_score": 0.6284,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_030",
+        "similarity_score": 0.62,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_017",
+        "similarity_score": 0.6179,
+        "primary_pasal": "Pasal 27"
+      }
+    ]
+  },
+  "case_033": {
+    "query_id": "case_033",
+    "expected_pasal": "Pasal 35",
+    "expected_similar_cases": [
+      "case_008",
+      "case_009",
+      "case_015",
+      "case_021",
+      "case_024",
+      "case_027",
+      "case_028",
+      "case_034",
+      "case_036"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_034",
+        "similarity_score": 0.8686,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_018",
+        "similarity_score": 0.2982,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_035",
+        "similarity_score": 0.2404,
+        "primary_pasal": "Pasal 30"
+      },
+      {
+        "case_id": "case_009",
+        "similarity_score": 0.1885,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_038",
+        "similarity_score": 0.1723,
+        "primary_pasal": "Pasal 28"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_015",
+        "similarity_score": 0.6449,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_024",
+        "similarity_score": 0.6326,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_036",
+        "similarity_score": 0.6319,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_021",
+        "similarity_score": 0.631,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_028",
+        "similarity_score": 0.6138,
+        "primary_pasal": "Pasal 35"
+      }
+    ]
+  },
+  "case_043": {
+    "query_id": "case_043",
+    "expected_pasal": "Pasal 28",
+    "expected_similar_cases": [
+      "case_003",
+      "case_004",
+      "case_007",
+      "case_011",
+      "case_012",
+      "case_016",
+      "case_023",
+      "case_026",
+      "case_031",
+      "case_037",
+      "case_038"
+    ],
+    "cosine_results": [
+      {
+        "case_id": "case_030",
+        "similarity_score": 0.2999,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_034",
+        "similarity_score": 0.2673,
+        "primary_pasal": "Pasal 35"
+      },
+      {
+        "case_id": "case_039",
+        "similarity_score": 0.2626,
+        "primary_pasal": "Pasal 27"
+      },
+      {
+        "case_id": "case_011",
+        "similarity_score": 0.227,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_035",
+        "similarity_score": 0.2199,
+        "primary_pasal": "Pasal 30"
+      }
+    ],
+    "svm_results": [
+      {
+        "case_id": "case_011",
+        "similarity_score": 0.6373,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_037",
+        "similarity_score": 0.634,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_038",
+        "similarity_score": 0.6305,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_003",
+        "similarity_score": 0.6301,
+        "primary_pasal": "Pasal 28"
+      },
+      {
+        "case_id": "case_004",
+        "similarity_score": 0.6289,
+        "primary_pasal": "Pasal 28"
+      }
+    ]
+  }
+}
