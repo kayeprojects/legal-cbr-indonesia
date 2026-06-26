@@ -15,7 +15,7 @@ Project ini mengimplementasikan pipeline CBR untuk menganalisis dan melakukan pe
 | **Tahap 1** | Case Base — Data Acquisition & Preprocessing | ✅ Selesai |
 | **Tahap 2** | Case Representation — Feature Extraction | ✅ Selesai |
 | **Tahap 3** | Case Retrieval — Similarity & Matching | ✅ Selesai |
-| **Tahap 4** | Case Reuse & Evaluation | 🔲 Direncanakan |
+| **Tahap 4** | Case Reuse & Evaluation | ✅ Selesai |
 
 ## 📁 Struktur Project
 
@@ -33,7 +33,9 @@ project-cbr/
 ├── notebooks/
 │   ├── 01_case_base.ipynb          # Tahap 1 — Pipeline preprocessing
 │   ├── 02_case_representation.ipynb # Tahap 2 — Feature extraction
-│   └── 03_case_retrieval.ipynb      # Tahap 3 — TF-IDF retrieval & SVM
+│   ├── 03_case_retrieval.ipynb      # Tahap 3 — TF-IDF retrieval & SVM
+│   ├── 04_case_reuse.ipynb          # Tahap 4 — Prediksi & Reuse
+│   └── 05_model_evaluation.ipynb    # Tahap 5 — Evaluasi metrics
 │
 ├── logs/
 │   └── cleaning.log   # Log preprocessing
@@ -123,6 +125,29 @@ Notebook `03_case_retrieval.ipynb` mengimplementasikan sistem retrieval kasus:
 4. **ML Model** — TF-IDF + Linear SVM (Avg Precision@5 = 0.33).
 5. **API** — `retrieve(query_text, k=5, method='cosine'/'svm')`.
 6. **Output** — `data/results/retrieval_baseline.json`, `data/eval/queries.json`.
+
+## 📊 Tahap 4 — Case Reuse
+
+Notebook `04_case_reuse.ipynb` menangani prediksi solusi:
+1. **Case Reuse** — Majority-vote prediction dari top-K retrieved cases (`amar_putusan` dan `primary_pasal`).
+
+## 📈 Tahap 5 — Model Evaluation
+
+Notebook `05_model_evaluation.ipynb` menutup pipeline dengan evaluasi:
+1. **Evaluation Metrics** — Accuracy, Precision, Recall, F1-Score.
+2. **Confusion Matrix** — Heatmap untuk visualisasi prediksi.
+
+| Metode | Accuracy | Precision (W) | Recall (W) | F1-Score (W) |
+|--------|----------|---------------|------------|---------------|
+| TF-IDF + Cosine Similarity | 0.3333 | 0.2778 | 0.3333 | 0.2963 |
+| TF-IDF + Linear SVM | 0.3333 | 0.2407 | 0.3333 | 0.2794 |
+
+**Output:**
+- `data/results/predictions.csv`
+- `data/results/evaluation_report.json`
+- `data/results/confusion_matrix.png`
+- `data/eval/retrieval_metrics.csv`
+- `data/eval/prediction_metrics.csv`
 
 ## 📄 Lisensi
 

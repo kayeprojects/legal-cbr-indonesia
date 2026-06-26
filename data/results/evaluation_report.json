@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "stage": 4,
+    "description": "Case Reuse & Evaluation",
+    "num_queries": 9,
+    "reuse_strategy": "majority_vote",
+    "top_k": 5
+  },
+  "cosine_similarity": {
+    "accuracy": 0.3333,
+    "precision_weighted": 0.2778,
+    "recall_weighted": 0.3333,
+    "f1_weighted": 0.2963,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "labels": [
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 30",
+      "Pasal 35"
+    ]
+  },
+  "linear_svm": {
+    "accuracy": 0.3333,
+    "precision_weighted": 0.2407,
+    "recall_weighted": 0.3333,
+    "f1_weighted": 0.2794,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "labels": [
+      "Pasal 27",
+      "Pasal 28",
+      "Pasal 29",
+      "Pasal 30",
+      "Pasal 35"
+    ]
+  },
+  "predictions": [
+    {
+      "query_id": "case_001",
+      "actual_pasal": "Pasal 35",
+      "cosine_predicted_pasal": "Pasal 28",
+      "svm_predicted_pasal": "Pasal 28",
+      "cosine_top5": [
+        "case_029",
+        "case_023",
+        "case_037",
+        "case_036",
+        "case_013"
+      ],
+      "svm_top5": [
+        "case_011",
+        "case_037",
+        "case_038",
+        "case_003",
+        "case_004"
+      ]
+    },
+    {
+      "query_id": "case_006",
+      "actual_pasal": "Pasal 28",
+      "cosine_predicted_pasal": "Pasal 28",
+      "svm_predicted_pasal": "Pasal 35",
+      "cosine_top5": [
+        "case_029",
+        "case_037",
+        "case_024",
+        "case_036",
+        "case_023"
+      ],
+      "svm_top5": [
+        "case_015",
+        "case_024",
+        "case_036",
+        "case_021",
+        "case_028"
+      ]
+    },
+    {
+      "query_id": "case_014",
+      "actual_pasal": "Pasal 27",
+      "cosine_predicted_pasal": "Pasal 35",
+      "svm_predicted_pasal": "Pasal 28",
+      "cosine_top5": [
+        "case_009",
+        "case_030",
+        "case_034",
+        "case_035",
+        "case_018"
+      ],
+      "svm_top5": [
+        "case_011",
+        "case_037",
+        "case_038",
+        "case_003",
+        "case_004"
+      ]
+    },
+    {
+      "query_id": "case_019",
+      "actual_pasal": "Pasal 27",
+      "cosine_predicted_pasal": "Pasal 35",
+      "svm_predicted_pasal": "Pasal 35",
+      "cosine_top5": [
+        "case_024",
+        "case_023",
+        "case_037",
+        "case_015",
+        "case_021"
+      ],
+      "svm_top5": [
+        "case_015",
+        "case_024",
+        "case_036",
+        "case_021",
+        "case_028"
+      ]
+    },
+    {
+      "query_id": "case_022",
+      "actual_pasal": "Pasal 28",
+      "cosine_predicted_pasal": "Pasal 28",
+      "svm_predicted_pasal": "Pasal 28",
+      "cosine_top5": [
+        "case_026",
+        "case_016",
+        "case_039",
+        "case_035",
+        "case_003"
+      ],
+      "svm_top5": [
+        "case_011",
+        "case_037",
+        "case_038",
+        "case_003",
+        "case_004"
+      ]
+    },
+    {
+      "query_id": "case_025",
+      "actual_pasal": "Pasal 30",
+      "cosine_predicted_pasal": "Pasal 35",
+      "svm_predicted_pasal": "Pasal 27",
+      "cosine_top5": [
+        "case_024",
+        "case_044",
+        "case_036",
+        "case_042",
+        "case_004"
+      ],
+      "svm_top5": [
+        "case_020",
+        "case_042",
+        "case_041",
+        "case_030",
+        "case_017"
+      ]
+    },
+    {
+      "query_id": "case_032",
+      "actual_pasal": "Pasal 29",
+      "cosine_predicted_pasal": "Pasal 27",
+      "svm_predicted_pasal": "Pasal 27",
+      "cosine_top5": [
+        "case_039",
+        "case_035",
+        "case_041",
+        "case_026",
+        "case_016"
+      ],
+      "svm_top5": [
+        "case_020",
+        "case_042",
+        "case_041",
+        "case_030",
+        "case_017"
+      ]
+    },
+    {
+      "query_id": "case_033",
+      "actual_pasal": "Pasal 35",
+      "cosine_predicted_pasal": "Pasal 35",
+      "svm_predicted_pasal": "Pasal 35",
+      "cosine_top5": [
+        "case_034",
+        "case_018",
+        "case_035",
+        "case_009",
+        "case_038"
+      ],
+      "svm_top5": [
+        "case_015",
+        "case_024",
+        "case_036",
+        "case_021",
+        "case_028"
+      ]
+    },
+    {
+      "query_id": "case_043",
+      "actual_pasal": "Pasal 28",
+      "cosine_predicted_pasal": "Pasal 27",
+      "svm_predicted_pasal": "Pasal 28",
+      "cosine_top5": [
+        "case_030",
+        "case_034",
+        "case_039",
+        "case_011",
+        "case_035"
+      ],
+      "svm_top5": [
+        "case_011",
+        "case_037",
+        "case_038",
+        "case_003",
+        "case_004"
+      ]
+    }
+  ]
+}
