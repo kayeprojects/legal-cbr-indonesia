@@ -75,12 +75,13 @@ project-cbr/
    ```
 
 4. Jalankan pipeline secara utuh dengan membuka dan mengeksekusi (Run All) notebook berikut di VSCode secara berurutan:
+```
 - (`01_case_base.ipynb`) Tahap 1: Preprocessing teks
 - (`02_case_representation.ipynb`) Tahap 2: Ekstraksi fitur terstruktur
 - (`03_case_retrieval.ipynb`) Tahap 3: Sistem pencarian & pelatihan model
 - (`04_case_reuse.ipynb`) Tahap 4: Prediksi & pengulangan kasus
-- (`05_model_evaluation.ipynb`) Tahap 5: Perhitungan metrik evaluasi
-
+- (`05_model_evaluation.ipynb`) Tahap 5: Perhitungan metrik evaluasi 
+```
 ### Dataset
 
 Tempatkan file PDF putusan pengadilan di dalam folder `datasets uu-ite/`. Pipeline akan mendeteksi seluruh file `.pdf` secara otomatis — tidak ada nama file yang di-hardcode.
