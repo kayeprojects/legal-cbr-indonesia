@@ -74,7 +74,12 @@ project-cbr/
    pip install -r requirements.txt
    ```
 
-4. Buka `notebooks/01_case_base.ipynb` di VSCode dan jalankan semua cell.
+4. Jalankan pipeline secara utuh dengan membuka dan mengeksekusi (Run All) notebook berikut di VSCode secara berurutan:
+- 01_case_base.ipynb (Tahap 1: Preprocessing teks)
+- 02_case_representation.ipynb (Tahap 2: Ekstraksi fitur terstruktur)
+- 03_case_retrieval.ipynb (Tahap 3: Sistem pencarian & pelatihan model)
+- 04_case_reuse.ipynb (Tahap 4: Prediksi & pengulangan kasus)
+- 05_model_evaluation.ipynb (Tahap 5: Perhitungan metrik evaluasi)
 
 ### Dataset
 
